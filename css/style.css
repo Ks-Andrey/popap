@@ -1,0 +1,24 @@
+.popap-container {
+  display: none;
+  z-index: 1000;
+  position: fixed;
+}
+.popap-container.open {
+  display: block;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: rgba(1, 1, 1, 0.3);
+  display: none;
+  z-index: 999;
+}
+.bg.open {
+  display: block;
+}
